@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2042
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{151D2E53-A2C4-4D7D-83FE-D05416EBD58E}") = "dev-we-dc-dsc", "dev-we-dc-dsc\dev-we-dc-dsc.deployproj", "{338B4F44-ACD1-4012-A031-500C1E3F3ED0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{338B4F44-ACD1-4012-A031-500C1E3F3ED0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{338B4F44-ACD1-4012-A031-500C1E3F3ED0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{338B4F44-ACD1-4012-A031-500C1E3F3ED0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{338B4F44-ACD1-4012-A031-500C1E3F3ED0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5F10BFFC-82A2-4380-849E-8D45A2E116CA}
+	EndGlobalSection
+EndGlobal
