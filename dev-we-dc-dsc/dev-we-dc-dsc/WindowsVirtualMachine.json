@@ -49,12 +49,6 @@
     },
     "subnetName": {
       "type": "string"
-    },
-    "dscRegistrationURL": {
-      "type": "string"
-    },
-    "dscRegistrationKey": {
-      "type": "securestring"
     }
   },
   "variables": {
@@ -162,18 +156,17 @@
         "securityRules": []
       }
     },
-
     {
       "apiVersion": "2017-05-10",
       "name": "linkedTemplate",
       "properties": {
         "mode": "incremental",
         "templateLink": {
-          "uri": "https://mystorageaccount.blob.core.windows.net/AzureTemplates/newStorageAccount.json",
+          "uri": "https://raw.githubusercontent.com/mra-orbit/dev-azure-infra/orbit-build/dev-azure-dsctemplate/dscextension.json",
           "contentVersion": "1.0.0.0"
         },
         "parametersLink": {
-          "uri": "https://mystorageaccount.blob.core.windows.net/AzureTemplates/newStorageAccount.parameters.json",
+          "uri": "https://raw.githubusercontent.com/mra-orbit/dev-azure-infra/orbit-build/dev-azure-dsctemplate/dscextension.parameters.json",
           "contentVersion": "1.0.0.0"
         }
       },

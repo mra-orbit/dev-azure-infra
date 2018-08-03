@@ -5,6 +5,12 @@ VisualStudioVersion = 15.0.27703.2042
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{151D2E53-A2C4-4D7D-83FE-D05416EBD58E}") = "dev-we-dc-dsc", "dev-we-dc-dsc\dev-we-dc-dsc.deployproj", "{338B4F44-ACD1-4012-A031-500C1E3F3ED0}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{C9670662-801E-42D7-8EFA-229608B843F6}"
+	ProjectSection(SolutionItems) = preProject
+		..\dev-azure-dsctemplate\dscextension.json = ..\dev-azure-dsctemplate\dscextension.json
+		..\dev-azure-dsctemplate\dscextension.parameters.json = ..\dev-azure-dsctemplate\dscextension.parameters.json
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
