@@ -2,11 +2,59 @@
   "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
   "contentVersion": "1.0.0.0",
   "parameters": {
-    "adminUsername": {
-      "value": null
+    "location": {
+      "value": "westeurope"
     },
-    "dnsNameForPublicIP": {
-      "value": null
+    "rGroupName": {
+      "value": "DEV-WE-RG-DSC"
+    },
+    "virtualMachineName": {
+      "value": "DEV-WE-VM-FS01"
+    },
+    "virtualMachineSize": {
+      "value": "Standard_D2s_v3"
+    },
+    "adminUsername": {
+      "value": "orbitadmin"
+    },
+    "virtualNetworkName": {
+      "value": "Orbit-vNet"
+    },
+    "networkInterfaceName": {
+      "value": "devwevmfs01934"
+    },
+    "diskSizeGB": {
+      "value": "31"
+    },
+    "networkSecurityGroupName": {
+      "value": "DEV-WE-VM-FS01-nsg"
+    },
+    "adminPassword": {
+      "value": "P@ssword2018"
+    },
+    "availabilitySetName": {
+      "value": "DC_AvailabilitySet"
+    },
+    "availabilitySetPlatformFaultDomainCount": {
+      "value": "2"
+    },
+    "availabilitySetPlatformUpdateDomainCount": {
+      "value": "5"
+    },
+    "diagnosticsStorageAccountName": {
+      "value": "saorbitinfradiagnostics"
+    },
+    "diagnosticsStorageAccountId": {
+      "value": "/subscriptions/dfdb8a60-25be-4334-99b8-2f9105886c11/resourceGroups/RG_BaseInfrastructure_EA/providers/Microsoft.Storage/storageAccounts/saorbitinfradiagnostics"
+    },
+    "subnetName": {
+      "value": "default"
+    },
+    "dscRegistrationURL": {
+      "value": "https://we-agentservice-prod-1.azure-automation.net/accounts/7f06f67f-3cb8-4dab-aed5-8bf10bf89b95"
+    },
+    "dscRegistrationKey": {
+      "value": "hkuap3JPgth53DYuwCa7uzo6OD5s4yzcHrguB4drUWrBPGENQtwDLmKzXyirSnVH61cIQcVRe/joqoY9gk+diA=="
     }
   }
 }

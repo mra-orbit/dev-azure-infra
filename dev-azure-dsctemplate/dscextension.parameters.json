@@ -1,0 +1,16 @@
+{
+  "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+
+  "parameters": {
+     "virtualMachineName": {
+      "value": "DEV-WE-VM-FS01"
+    },
+     "dscRegistrationURL": {
+      "value": "https://we-agentservice-prod-1.azure-automation.net/accounts/7f06f67f-3cb8-4dab-aed5-8bf10bf89b95"
+    },
+    "dscRegistrationKey": {
+      "value": "hkuap3JPgth53DYuwCa7uzo6OD5s4yzcHrguB4drUWrBPGENQtwDLmKzXyirSnVH61cIQcVRe/joqoY9gk+diA=="
+    }
+  }
+}
